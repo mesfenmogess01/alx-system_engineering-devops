@@ -12,4 +12,3 @@ case $x in
 esac
     x=$(( x + 1 ))
 done
-Footer
