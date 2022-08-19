@@ -1,16 +1,21 @@
 #!/usr/bin/env bash
-#prints a string 10 times
-x=0
-while [ $x != 10 ]
+# This script isdisplaying "Best School 10 times using the while loop
+
+i=1
+bl=4
+gl=8
+
+while [ $i -le 10 ]
 do
-  if [ $x = 3 ]
+  if [ $i == $bl ]
   then
-    echo "bad luck"
-  elif [ $x = 7 ]
+  echo "bad luck"
+  elif [ $i == $gl ]
   then
-    echo "good luck"
+  echo "good luck"
   else
-    echo "Best School"
+  echo "Best School"
   fi
-  x=$(( x + 1 ))
+
+  i=$((i+1))
 done
