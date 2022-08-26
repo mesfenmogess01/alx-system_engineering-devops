@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-sudo netstat -lp
+# This script displays listening
+# Sockets
+
+netstat -lp
