@@ -2,4 +2,4 @@
 # connects to a remote server using ssh 
 # and a private key at ~/.ssh/holberton
 
-ssh -i ~/.ssh/id_rsa ubuntu@104.196.171.213
+ssh -i ~/.ssh/id_rsa
